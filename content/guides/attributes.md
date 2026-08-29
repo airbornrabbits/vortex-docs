@@ -4,7 +4,7 @@ Attributes are basically custom properties that can be given to an Instance. The
 ### Creating Attributes
 Stub
 
-## Methods
+### Methods
 ### SetAttribute
 ```
 Instance:SetAttribute(Attribute: String, Value: Variant)
