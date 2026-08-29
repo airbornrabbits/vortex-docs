@@ -1,6 +1,6 @@
 ---
 title: Attributes
-description: Stub
+description: Attributes are custom properties that can be given to instances. 
 ---
 
 Stub
