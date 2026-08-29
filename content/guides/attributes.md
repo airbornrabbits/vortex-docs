@@ -1,12 +1,10 @@
----
-title: Attributes
-description: Attributes are custom properties that can be added to instances which contain your own data. Attributes are similar to properties but you can create and edit your attributes for any instance. Attributes can store Booleans, Numbers, and Strings.
----
+# Attributes
+Attributes are basically custom properties that can be given to an Instance. These properties can be Strings, Booleans, and Numbers (Bare Minimum, confirmation is needed for other datatypes.)
 
-## Creating Attributes
+### Creating Attributes
 Stub
 
-# Methods
+## Methods
 ### SetAttribute
 ```
 Instance:SetAttribute(Attribute: String, Value: Variant)
