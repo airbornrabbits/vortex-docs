@@ -81,6 +81,17 @@ The name of the specified attribute for which the change signal is being returne
 ScriptSignal
 An event that fires when the specified attribute changes.
 ```
+
+#### Examples
+In the code snippet below, you can see 
+```luau
+local Part = workspace.Part
+
+Part:GetAttributeChangedSignal("Health"):Connect(function()
+   local CurrentHealth = Part:GetAttribute("Health")
+   print("Value has changed." .. tostring(CurrentHealth))
+end)
+```
 ### Creating Attributes
 Stub
 
